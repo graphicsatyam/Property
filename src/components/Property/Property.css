@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*** Property List ***/
+.nav-pills .nav-item .btn {
+    color: var(--dark);
+}
+
+.nav-pills .nav-item .btn:hover,
+.nav-pills .nav-item .btn.active {
+    color: #ee0000;
+}
+
+.container7 {
+    padding: 0px 25px;
+    overflow: hidden;
+}
+
+.py-5 {
+    padding-top: 0rem !important;
+    padding-bottom: 3rem !important;
+}
+
+
+.property-item {
+    background: linear-gradient(to top, #ffe5d5,white,  white);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+}
+
+.property-item img {
+    transition: .5s;
+}
+
+.mb-8 {
+    text-align: center;
+    color: #f25927;
+
+}
+
+.mb-9 {
+    text-align: center;
+    
+}
+
+.main_heading {
+    color: #f25927;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: 23px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* margin-bottom: 7px; */
+}
+
+.p-4 {
+    padding: 0.5rem !important;
+}
+
+.divide {
+    display: flex;
+    text-align: center;
+    margin-bottom: 3px;
+    gap: 3rem;
+    padding: 0 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_part {
+    font-family: "Kanit", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  color: #00327d;
+}
+
+.second_part {
+    font-family: "Kanit", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  color: #00327d;
+}
+
+.para_new {
+    padding: 3px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 2px;
+}
+
+.property-item:hover img {
+    transform: scale(1.1);
+}
+
+.property-item .border-top {
+    border-top: 1px dashed  #f25927 !important;
+}
+
+.property-item .border-end {
+    border-right: 1px dashed #f25927 !important;
+}

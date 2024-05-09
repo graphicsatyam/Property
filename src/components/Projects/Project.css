@@ -1,0 +1,159 @@
+
+   
+    h1,p {
+        text-align: center;
+        /* padding: 4px; */
+    }
+
+    /* Swiper Css */
+    #app {
+        height: 100%;
+      }
+      html,
+      body {
+        position: relative;
+        height: 100%; 
+      }
+      
+      body {
+        /* background-color: white; */
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+
+     /* For Swiper */
+      .swiper {
+        margin-top: 10px;
+        width: 80%;
+        height: 100%;
+        margin-bottom: 2rem;
+      }
+      
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        
+      
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+.price {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.add {
+  padding: 0px;
+}
+      
+
+      .iimage {
+        display: block;
+        /* background-image: url("../../../public/images/slider1.jpg"); */
+        object-fit: cover;
+        width: 100%;
+        height: 550px;
+        background-size: cover;
+      }
+        
+        .iimage img {
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        }
+      .areas {
+        font-weight: 600;
+        padding: 3px;
+      }
+      .image-box {
+       width: 300px;
+        border-radius: 10px;
+        padding: 30px;
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        opacity: 0.8; /* Optional: Adjust opacity as needed */
+      }
+      .bed {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+      
+      .facility {
+        padding: 0px;
+        margin-bottom: 4px;
+        display: flex;
+        gap: 3rem;
+        justify-content: center;
+      }
+      .fp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .button1 {
+        background-color:  #f25927;
+        padding: 10px 15px;
+        font-weight: 600;
+        color: #ffffff;
+        cursor: pointer;
+      }
+      .hdl{
+        text-align: center;
+        color:  #f25927;
+        padding: 10px 0px 0px 0px;
+      }
+     
+      .heading h3 {
+        color: #f25927;
+      }
+
+ @media only screen and (max-width: 768px) {
+         
+          .hdl{
+            text-align: center;
+            margin-top: 10px;
+            color:  #f25927;
+            padding: 5px 0px 0px 0px;
+          }
+          .dtl {
+            text-align: center;
+            padding: 0px 15px;
+            margin: 5px;
+          }
+
+          .swiper {
+            margin-top: 8px;
+            width: 100%;
+            height: 100%;
+          }
+          
+          .swiper-slide {
+            width: 100%;
+           }
+           .iimage {
+            display: block;
+            /* background-image: url("../../../public/images/slider1.jpg"); */
+            object-fit: cover;
+            width: 100%;
+            height: 480px;
+            background-size: cover;
+          }
+           .iimage img {
+            width: auto;
+            border-radius: 0px;
+            }
+            .image-box {
+              left: 50%;
+            }
+           
+        }

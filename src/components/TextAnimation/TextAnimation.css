@@ -1,0 +1,59 @@
+.text-animation-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .text-animation {
+    top: 35%;
+    left: 30%;
+    position: absolute;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  /* Add animation effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes erasing {
+    from { width: 100% }
+    to { width: 0 }
+  }
+  
+  .text-animation::after {
+    content: '|';
+    display: inline-block;
+    width: 0;
+    animation: typing 1s steps(1) infinite;
+  }
+  
+  .text-animation.erasing::after {
+    content: '';
+    animation: erasing 0.5s steps(1) infinite;
+  }
+
+  @media (max-width: 768px) {
+    .text-animation {
+      top: 19%;
+      left: 17%;
+        position: absolute;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        font-family: Arial, sans-serif;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+      
+  }
+  

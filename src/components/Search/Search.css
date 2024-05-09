@@ -1,0 +1,76 @@
+.video-container {
+    position: relative;
+  }
+  
+  .video-container video {
+    width: 100%;
+    height: auto;
+  }
+
+  .invitation {
+    color: wheat;
+    text-align: center;
+    line-height: 30px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+  
+  .search-container {
+    position: absolute;
+    top: -230px;
+    gap: 1rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgba(255, 255, 255, 0.5); Adjust the background color and opacity */
+    padding: 20px;
+    
+    border-radius: 10px;
+  }
+  
+  input[type="text"] {
+    width: 600px; /* Adjust width as needed */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .search-button {
+    background-color: #f25927;
+    color: white;
+  }
+  button {
+    padding: 10px 20px;
+    background-color:#f25927;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  @media (min-width: 300px) and (max-width: 400px) {
+    .search-container {
+    top: -170px !important;
+    gap: 1rem !important;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .search-container {
+    top: -160px !important;
+    gap: 1rem;
+  }
+.invitation {
+    color: wheat;
+    text-align: center;
+    line-height: 30px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+input[type="text"] {
+  width: 300px;
+}
+}
+
+  

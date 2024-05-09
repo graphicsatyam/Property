@@ -1,0 +1,19 @@
+.custom_video {
+    width: 100%;
+    overflow: hidden;
+    height: 620px;
+    position: relative;
+
+}
+
+
+@media (max-width: 768px) {
+    .vid {
+        width: 185vw;
+        height: auto;
+    }
+    .custom_video {
+        height: 420px;
+        
+    }
+}
